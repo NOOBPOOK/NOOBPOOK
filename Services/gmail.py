@@ -10,8 +10,6 @@ import base64
 from googleapiclient.discovery import Resource
 
 DEFAULT_SCOPES = ["https://mail.google.com/"]
-DEFAULT_CREDS_TOKEN_FILE = "token.json"
-DEFAULT_CLIENT_SECRETS_FILE = "client_secret.json"
 global_creds = "YOUR VERIFIED TOKEN SHOULD GO HERE, DICTIONARY FORMAT"
 
 def import_google():
