@@ -12,7 +12,7 @@ from googleapiclient.discovery import Resource
 DEFAULT_SCOPES = ["https://mail.google.com/"]
 DEFAULT_CREDS_TOKEN_FILE = "token.json"
 DEFAULT_CLIENT_SECRETS_FILE = "client_secret.json"
-global_creds = {"token": "ya29.a0AXooCgt3axIZkf1FeL2hWGEP6smNZYiKsX_c1DR_nKTs-XdqsPnNcvehVB4PtkrI6iyzLM4omZT64JHhwJNOAKhY9gxc3i5yCjl9U1-DCBK59qkyOPNY--icMXBeRggURrQgrgpM7ckNtfLpLVwIeUWdJV6HXo6_uVRGaCgYKAZcSARMSFQHGX2MiyfK3Nv7UN0q4u9jKI5uN9Q0171", "refresh_token": "1//0g2jpCglaKCIsCgYIARAAGBASNwF-L9IrisuRLwsINBLtcIiqfDdtG4RL0wZXDHvBzbQvPe-tyrkPPadOBCbURkRx0xuNYlq_DvU", "token_uri": "https://oauth2.googleapis.com/token", "client_id": "691658134572-8lumin8u31thtqgvvc582vb4nqm251b2.apps.googleusercontent.com", "client_secret": "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", "scopes": ["https://mail.google.com/"], "universe_domain": "googleapis.com", "account": "", "expiry": "2024-07-29T20:03:08.981777Z"}
+global_creds = "YOUR VERIFIED TOKEN SHOULD GO HERE, DICTIONARY FORMAT"
 
 def import_google():
     try:
